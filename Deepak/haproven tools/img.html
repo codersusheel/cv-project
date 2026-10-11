@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en-in">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Page Title | Example Website</title>
+
+    <meta name="description" content="Short and clear description of this page.">
+    <link rel="canonical" href="https://example.com/page/example/">
+
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Page Title | Example Website">
+    <meta property="og:description" content="Short description of this page.">
+
+    <meta property="og:url" content="https://example.com/page/example/">
+
+    <meta property="og:image" content="https://example.com/assets/img/og-image.png">
+
+    <meta property="og:site_name" content="Example Website">
+
+
+    <!-- ================= TWITTER / X ================= -->
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:title" content="Page Title | Example Website">
+
+    <meta name="twitter:description" content="Short description of this page.">
+
+    <meta name="twitter:image" content="https://example.com/assets/img/og-image.png">
+
+
+    <!-- ================= FAVICON ================= -->
+
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+
+    <link rel="apple-touch-icon" href="/assets/img/icon-192.png">
+
+
+    <!-- ================= PWA ================= -->
+
+    <link rel="manifest" href="/manifest.json">
+
+
+    <!-- ================= ICONS ================= -->
+
+    <!-- 🟢 Keep only if Font Awesome is used on this page -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://haprobase.netlify.app/external/css/base.css">
+    <link rel="stylesheet" href="https://haprobase.netlify.app/external/css/addon.css">
+
+
+
+    <!-- ================= STRUCTURED DATA ================= -->
+    <!-- 🔴 Change page-specific information -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+
+        "name": "Page Title",
+
+        "url": "https://example.com/page/example/",
+
+        "description": "Short description of this page.",
+
+        "inLanguage": "en-IN",
+
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Example Website",
+            "url": "https://example.com/"
+        }
+    }
+    </script>
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+
+    <!-- ======================================================================================================================================================================================= -->
+    <header id="header">
+
+        <div class="header">
+            <div class="logo">
+                <a href="/">
+                    <div class="haproven-brand animate" data-name="site name by haproven ">haproven</div>
+                </a>
+            </div>
+
+            <div class="header-senter">
+                <ul id="header-links">
+                    <li class="nav-loading"><i class="fas fa-spinner fa-spin"></i> Loading...</li>
+                    <li class="nav-loading"><i class="fas fa-spinner fa-spin"></i> Loading...</li>
+                    <li class="nav-loading"><i class="fas fa-spinner fa-spin"></i> Loading...</li>
+                </ul>
+            </div>
+
+
+            <div class="header-right-side">
+
+                <div class="header-manu">
+                    <div class="menu-wrapper">
+
+                        <button class="dot-menu-btn" id="dot6menu" aria-label="Toggle Apps Menu">
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                        </button>
+
+                        <div class="team-dropdown" id="teamDropdown">
+
+                            <div class="quick-actions" id="dot6">
+                                <a href="javascript:void(0)" class="action-box" onclick="toggleLanguage()">
+                                    <div class="language-switch">
+                                        <button id="langBtn">हिंदी</button>
+                                    </div>
+                                    <span>Lang..</span>
+                                </a>
+                                <a id="theme-toggle" class="action-box" href="javascript:void(0)">
+                                    <span class="icon sun">☀️</span>
+                                    <span class="icon moon">🌙</span>
+                                    <span>Theme</span>
+                                </a>
+                                <a href="#" id="login-action" class="action-box">
+                                    <i class="ri-login-circle-line"></i>
+                                    <span>Login</span>
+                                </a>
+
+                                <a href="#" id="main-audio-button" class="action-box">
+                                    <i class="fa-solid fa-volume-low"></i>
+                                    <span>Audio</span>
+                                </a>
+
+                            </div>
+
+                            <ul class="by-haproven" id="by-haproven">
+                                <!-- haproven eco. link -->
+                                <li>
+                                    <a href="" class="member-box">
+                                        <i class="fas fa-circle-notch fa-spin fa-4px"></i>
+                                        <span>Loading...</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="member-box">
+                                        <i class="fas fa-circle-notch fa-spin fa-4px"></i>
+                                        <span>Loading...</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="member-box">
+                                        <i class="fas fa-circle-notch fa-spin fa-4px"></i>
+                                        <span>Loading...</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-toggle" id="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <nav id="navbar-mobile">
+                    <div class="menu-title">Main Menu</div>
+
+                    <ul class="navbar-mobile" id="mobile-sidebar">
+                        <li class="sidebar-icon-loading">
+                            <i class="fas fa-circle-notch fa-spin"></i> <span>Loading Menu...</span>
+                        </li>
+                    </ul>
+
+                    <hr class="hr">
+
+                    <div class="mobile-social haproven-sosal-links">
+                        <a aria-label="loading"><i class="fas fa-circle-notch fa-spin" style="color: #007bff;"></i></a>
+                        <a aria-label="loading"><i class="fas fa-circle-notch fa-spin" style="color: #007bff;"></i></a>
+                        <a aria-label="loading"><i class="fas fa-circle-notch fa-spin" style="color: #007bff;"></i></a>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+
+    <aside class="sidebar">
+        <div class="sidebar-brand">
+            <div class="sidebar-live-box">
+                <p id="live-text">
+                    <i class="fas fa-circle-notch fa-spin icon-loader"></i> <span>Loading status...</span>
+                </p>
+            </div>
+            <!-- <br> -->
+
+            <p id="liv-open-page">
+                <span class="page-loading"><i class="fas fa-spinner fa-spin"></i> Detecting Page...</span>
+            </p>
+        </div>
+
+
+
+
+        <nav class="sidebar-nav" id="sidebar_lapto">
+            <ul class="nav-list" id="laptop-sidebar">
+
+                <li class="nav-item has-submenu">
+                    <a href=""> Page link.</a>
+                    <ul class="submenu">
+                        <li><i class="fas fa-spinner fa-spin"></i> Loading... </li>
+                        <li><i class="fas fa-spinner fa-spin"></i> Loading... </li>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+            <hr>
+            <ul class="social-links haproven-sosal-links">
+                <li><i class="fas fa-spinner fa-spin social-loader"></i></li>
+                <li><i class="fas fa-spinner fa-spin social-loader"></i></li>
+                <li><i class="fas fa-spinner fa-spin social-loader"></i></li>
+                <li><i class="fas fa-spinner fa-spin social-loader"></i></li>
+                <li><i class="fas fa-spinner fa-spin social-loader"></i></li>
+            </ul>
+        </div>
+    </aside>
+
+    <!-- ======================================================================================================================================================================================= -->
+
+
+
+
+
+<main class="main">
+    <section class="image-tool">
+        <div class="tool-heading">
+            <span class="tool-badge">HAPROVEN TOOL</span>
+            <h1>Image Converter</h1>
+            <p>Convert, preview and download your images in seconds.</p>
+        </div>
+
+        <div class="upload-box" id="uploadBox">
+            <div class="upload-icon">📁</div>
+            <h3>Upload Your Image</h3>
+            <p>Drag & drop an image here or browse files</p>
+            <label for="imageInput" class="browse-btn">
+                Choose Image
+            </label>
+            <input type="file" id="imageInput"
+                   accept="image/png,image/jpeg,image/webp">
+            <small>Supported: JPG, PNG, WebP</small>
+        </div>
+
+        <div class="converter-panel" id="converterPanel">
+            <div class="preview-area">
+                <div class="preview-heading">
+                    <h3>Image Preview</h3>
+                    <button id="removeImage" class="reset-btn">Remove</button>
+                </div>
+                <img id="imagePreview" alt="Uploaded image preview">
+                <p id="imageInfo"></p>
+            </div>
+
+            <div class="settings-area">
+                <h3>Conversion Settings</h3>
+
+                <label for="outputFormat">Output Format</label>
+                <select id="outputFormat">
+                    <option value="image/webp">WebP</option>
+                    <option value="image/jpeg">JPG</option>
+                    <option value="image/png">PNG</option>
+                </select>
+
+                <label for="imageQuality">
+                    Image Quality: <span id="qualityValue">85%</span>
+                </label>
+                <input type="range" id="imageQuality"
+                       min="10" max="100" value="85">
+
+                <button id="convertBtn" class="convert-btn">
+                    Convert Image
+                </button>
+
+                <p id="statusMessage" role="status"></p>
+
+                <a id="downloadBtn" class="download-btn" download="converted-image.webp">
+                    Download Converted Image
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<style>
+.main {
+    padding: 30px 16px;
+    min-height: 70vh;
+    font-family: Arial, sans-serif;
+}
+
+.image-tool {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 28px;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 22px;
+    box-shadow: 0 12px 40px rgba(15, 23, 42, .07);
+    color: #172033;
+}
+
+.tool-heading {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.tool-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 30px;
+    background: #eeeaff;
+    color: #6842df;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.tool-heading h1 {
+    margin: 12px 0 8px;
+    font-size: clamp(28px, 4vw, 40px);
+}
+
+.tool-heading p,
+.upload-box p {
+    color: #687386;
+}
+
+.upload-box {
+    text-align: center;
+    padding: 35px 15px;
+    border: 2px dashed #b8a8ff;
+    border-radius: 17px;
+    background: #faf9ff;
+    transition: .2s;
+}
+
+.upload-box.dragging {
+    background: #efebff;
+    border-color: #7045ed;
+}
+
+.upload-icon {
+    font-size: 42px;
+}
+
+.upload-box h3 {
+    margin: 10px 0 5px;
+}
+
+.upload-box p {
+    margin: 8px 0 20px;
+}
+
+#imageInput {
+    display: none;
+}
+
+.browse-btn,
+.convert-btn,
+.download-btn {
+    display: inline-block;
+    padding: 12px 19px;
+    border: 0;
+    border-radius: 10px;
+    background: linear-gradient(120deg, #7545ed, #3b70e8);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.upload-box small {
+    display: block;
+    margin-top: 17px;
+    color: #788397;
+}
+
+.converter-panel {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 25px;
+}
+
+.converter-panel.active {
+    display: grid;
+}
+
+.preview-area,
+.settings-area {
+    min-width: 0;
+    padding: 18px;
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+    background: #fcfcff;
+}
+
+.preview-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.preview-heading h3,
+.settings-area h3 {
+    margin: 0 0 16px;
+}
+
+.preview-heading h3 {
+    margin-bottom: 0;
+}
+
+#imagePreview {
+    display: block;
+    width: 100%;
+    max-height: 330px;
+    object-fit: contain;
+    margin: 18px auto;
+    border-radius: 10px;
+    background:
+        linear-gradient(45deg, #f0f0f0 25%, transparent 25%),
+        linear-gradient(-45deg, #f0f0f0 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #f0f0f0 75%),
+        linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+    background-size: 20px 20px;
+}
+
+#imageInfo {
+    color: #687386;
+    font-size: 13px;
+    overflow-wrap: anywhere;
+}
+
+.settings-area label {
+    display: block;
+    margin: 18px 0 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.settings-area select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d7dce5;
+    border-radius: 9px;
+    background: white;
+    color: #172033;
+}
+
+#imageQuality {
+    width: 100%;
+    accent-color: #7045ed;
+}
+
+.convert-btn {
+    width: 100%;
+    margin-top: 22px;
+}
+
+.download-btn {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    background: #078b69;
+    box-sizing: border-box;
+}
+
+.download-btn.visible {
+    display: block;
+}
+
+.reset-btn {
+    border: 1px solid #e0d9ff;
+    border-radius: 8px;
+    background: #f3f0ff;
+    color: #6541cf;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+#statusMessage {
+    font-size: 13px;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 650px) {
+    .main {
+        padding: 16px 10px;
+    }
+
+    .image-tool {
+        padding: 17px;
+        border-radius: 15px;
+    }
+
+    .converter-panel.active {
+        grid-template-columns: 1fr;
+    }
+
+    .upload-box {
+        padding: 28px 12px;
+    }
+}
+</style>
+
+<script>
+(() => {
+    const input = document.getElementById("imageInput");
+    const uploadBox = document.getElementById("uploadBox");
+    const panel = document.getElementById("converterPanel");
+    const preview = document.getElementById("imagePreview");
+    const info = document.getElementById("imageInfo");
+    const format = document.getElementById("outputFormat");
+    const quality = document.getElementById("imageQuality");
+    const qualityValue = document.getElementById("qualityValue");
+    const convertBtn = document.getElementById("convertBtn");
+    const downloadBtn = document.getElementById("downloadBtn");
+    const status = document.getElementById("statusMessage");
+
+    let originalImage = null;
+    let originalURL = null;
+    let convertedURL = null;
+
+    function clearConverted() {
+        if (convertedURL) URL.revokeObjectURL(convertedURL);
+        convertedURL = null;
+        downloadBtn.removeAttribute("href");
+        downloadBtn.classList.remove("visible");
+    }
+
+    function loadImage(file) {
+        if (!file) return;
+
+        if (!["image/jpeg", "image/png", "image/webp"].includes(file.type)) {
+            status.textContent = "Please select a JPG, PNG or WebP image.";
+            return;
+        }
+
+        if (file.size > 20 * 1024 * 1024) {
+            status.textContent = "Image is too large. Please choose an image under 20 MB.";
+            return;
+        }
+
+        const reader = new FileReader();
+
+        reader.onload = () => {
+            const img = new Image();
+
+            img.onload = () => {
+                if (originalURL) URL.revokeObjectURL(originalURL);
+                originalURL = URL.createObjectURL(file);
+                originalImage = img;
+
+                preview.src = originalURL;
+                info.textContent =
+                    `${file.name} • ${img.naturalWidth} × ${img.naturalHeight}px • ${(file.size / 1024).toFixed(1)} KB`;
+
+                panel.classList.add("active");
+                clearConverted();
+                status.textContent = "Image ready to convert.";
+            };
+
+            img.onerror = () => {
+                status.textContent = "Could not read this image.";
+            };
+
+            img.src = reader.result;
+        };
+
+        reader.onerror = () => {
+            status.textContent = "Failed to read the selected file.";
+        };
+
+        reader.readAsDataURL(file);
+    }
+
+    input.addEventListener("change", () => loadImage(input.files[0]));
+
+    ["dragenter", "dragover"].forEach(eventName => {
+        uploadBox.addEventListener(eventName, event => {
+            event.preventDefault();
+            uploadBox.classList.add("dragging");
+        });
+    });
+
+    ["dragleave", "drop"].forEach(eventName => {
+        uploadBox.addEventListener(eventName, event => {
+            event.preventDefault();
+            uploadBox.classList.remove("dragging");
+        });
+    });
+
+    uploadBox.addEventListener("drop", event => {
+        loadImage(event.dataTransfer.files[0]);
+    });
+
+    quality.addEventListener("input", () => {
+        qualityValue.textContent = quality.value + "%";
+    });
+
+    format.addEventListener("change", clearConverted);
+    quality.addEventListener("change", clearConverted);
+
+    convertBtn.addEventListener("click", () => {
+        if (!originalImage) {
+            status.textContent = "Please upload an image first.";
+            return;
+        }
+
+        clearConverted();
+
+        const canvas = document.createElement("canvas");
+        canvas.width = originalImage.naturalWidth;
+        canvas.height = originalImage.naturalHeight;
+
+        const ctx = canvas.getContext("2d");
+        const mime = format.value;
+
+        // JPG does not support transparency; use a white background.
+        if (mime === "image/jpeg") {
+            ctx.fillStyle = "#ffffff";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+        }
+
+        ctx.drawImage(originalImage, 0, 0);
+
+        canvas.toBlob(blob => {
+            if (!blob) {
+                status.textContent = "Conversion failed. Try another image format.";
+                return;
+            }
+
+            if (blob.type !== mime) {
+                status.textContent = "This format is not supported by the browser.";
+                return;
+            }
+
+            convertedURL = URL.createObjectURL(blob);
+            const extension = mime.split("/")[1];
+
+            downloadBtn.href = convertedURL;
+            downloadBtn.download = `haproven-converted.${extension}`;
+            downloadBtn.classList.add("visible");
+
+            status.textContent =
+                `Conversion complete! Output size: ${(blob.size / 1024).toFixed(1)} KB`;
+        }, mime, Number(quality.value) / 100);
+    });
+
+    document.getElementById("removeImage").addEventListener("click", () => {
+        input.value = "";
+        originalImage = null;
+
+        if (originalURL) URL.revokeObjectURL(originalURL);
+        originalURL = null;
+
+        clearConverted();
+        preview.removeAttribute("src");
+        info.textContent = "";
+        panel.classList.remove("active");
+        status.textContent = "";
+    });
+})();
+</script>
+
+
+
+
+
+
+    <footer>
+        <div class="footer">
+            &copy;<span id="year"></span> Haproven • Built with ❤️ in India
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- --------------------------------------------------------------------------------------------------------- -->
+    <script>
+        document.write(atob("PHNjcmlwdCBzcmM9Ii9hc3NldHMvanMvZGlyZWN0b3J5LmpzIj48L3NjcmlwdD4="));
+        document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vY29kZXJzdXNoZWVsLmdpdGh1Yi5pby9oYXByb2Jhc2UvZXh0ZXJuYWwvanMvYXBpL2dsb2JhbC5qcyI+PC9zY3JpcHQ+"));
+        document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vY29kZXJzdXNoZWVsLmdpdGh1Yi5pby9oYXByb2Jhc2UvZXh0ZXJuYWwvanMvYXV0aC9hdXRoLmpzIj48L3NjcmlwdD4="));
+        document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vY29kZXJzdXNoZWVsLmdpdGh1Yi5pby9oYXByb2Jhc2UvZXh0ZXJuYWwvanMvbWFpbi9zY3JpcHQuanMiPjwvc2NyaXB0Pg=="));
+        document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vY29kZXJzdXNoZWVsLmdpdGh1Yi5pby9oYXByb2Jhc2UvZXh0ZXJuYWwvanMvbWFpbi9wYWdlLWxvYWRlci5qcyI+PC9zY3JpcHQ+"));
+        // document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vY29kZXJzdXNoZWVsLmdpdGh1Yi5pby9oYXByb2Jhc2UvZXh0ZXJuYWwvanMvc2VjdXJpdHkvYW50aS1pbnNwZWN0LmpzIj48L3NjcmlwdD4="));
+    </script>
+
+
+
+
+</body>
+
+</html>
